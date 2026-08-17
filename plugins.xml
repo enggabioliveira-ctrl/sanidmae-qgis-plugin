@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugins>
+  <pyqgis_plugin name="saniDmae - DSES" version="1.0">
+    <description>saniDmae - DSES | Simulacao em redes de esgoto - calcula vazao acumulada em cascata (bacia -&gt; coletor -&gt; coletor) e diametro calculado (Manning) comparando com diametro existente, marcando trechos criticos.</description>
+    <about>Plugin para agilizar o dimensionamento de redes coletoras de esgoto. Permite vincular bacias/sub-bacias a coletores e coletores entre si (cascata), calcular populacao, vazao e diametro calculado automaticamente, e exportar um relatorio dos trechos que precisam de troca/melhoria.</about>
+    <version>1.0</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://github.com/enggabioliveira-ctrl/sanidmae-qgis-plugin</homepage>
+    <file_name>sanidmae-1.0.1.zip</file_name>
+    <icon>icon.png</icon>
+    <author_name>enggabioliveira-ctrl</author_name>
+    <download_url>https://github.com/enggabioliveira-ctrl/sanidmae-qgis-plugin/releases/download/1.0/sanidmae-1.0.1.zip</download_url>
+    <uploaded_by>enggabioliveira-ctrl</uploaded_by>
+    <create_date>2026-08-17</create_date>
+    <update_date>2026-08-17</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tracker>https://github.com/enggabioliveira-ctrl/sanidmae-qgis-plugin/issues</tracker>
+    <repository>https://github.com/enggabioliveira-ctrl/sanidmae-qgis-plugin</repository>
+    <tags>esgoto,saneamento,rede coletora,hidraulica,manning</tags>
+    <server>False</server>
+  </pyqgis_plugin>
+</plugins>
